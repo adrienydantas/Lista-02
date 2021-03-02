@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p bin/$(date +%F)
+cp * bin/$(date +%F)
+cd bin
+zip 'date' -exec rm
